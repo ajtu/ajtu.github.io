@@ -1,0 +1,51 @@
+.header-image {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.form-inline {
+  width: 80%;
+
+
+}
+
+.form-group { //the orange box
+  width: 80%;
+  background-color: orange;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  text-align: center;
+
+
+
+}
+
+.input-group {
+  width: 70% !important;
+  background-color: blue;
+  background: blue;
+  color:blue;
+
+
+}
+
+.form-control {
+  width: 80% !important;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: blue;
+}
+
+
+
+
+span.input-group-addon {
+  width: 50px !important;
+}

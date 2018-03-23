@@ -1,0 +1,31 @@
+.header-image {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+
+
+
+.lottery-body{
+font-weight:840;
+}
+
+/*
+.lottery-button {
+   width: 100%;
+   height: 40%;
+}*/
+
+.mainDiv{
+ text-align: center;
+}
+
+p{
+  text-align: left;
+}
