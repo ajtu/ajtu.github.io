@@ -13,7 +13,7 @@
 
 
 .lottery-body{
-font-weight:840;
+text-align: center;
 }
 
 /*
@@ -24,8 +24,10 @@ font-weight:840;
 
 .mainDiv{
  text-align: center;
+ width: 100%;
+ position:relative;
 }
 
-p{
-  text-align: left;
+h4, .well, .button{
+  background-color: clear;
 }

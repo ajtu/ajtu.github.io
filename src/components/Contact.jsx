@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Grid, Col, Image, FormGroup,ControlLabel, Button, FormControl, HelpBlock } from 'react-bootstrap';
 import './Contact.css';
 import firebase from './firebase.js';
+import { Link } from 'react-router-dom';
+
 
 export default class Register extends Component {
 
@@ -23,7 +25,7 @@ handleSubmit(e) {
   return;
   }
 
-  const itemsRef = firebase.database().ref('clients');
+  const itemsRef = firebase.database().ref('general-contact-or-owns-pool');
   const item = {
     name: this.state.name,
     email:this.state.email,
@@ -132,6 +134,27 @@ constructor() {
 
       <h3>{this.state.messageSent ? "Message Sent! Thanks for contacting us. We'll get back to you shortly!" : "Please leave us a message and we'll get back to you as soon as we can!"} </h3>
 
+
+
+                          <div class="study1">
+                            <div class="transparent-dark">
+
+                            <div className="addressSide">
+                          <p>Open Swim, Inc.</p>
+                          <p>52-51 84th street Elmhurst</p>
+                          <p>Queens, New York</p>
+                          <p>Phone: (917) 268- 4888 </p>
+                          <p>Text: (917) 268- 4888</p>
+                          <p>info@openswim.nyc</p>
+                          </div>
+
+                              <div className="socialMediaSide">
+                          <Link to="/facebook"><p>Facebook</p></Link>
+                          <Link to="/instagram"><p>Instagram</p></Link>
+                          <Link to="/twitter"><p>Twitter</p></Link>
+                          </div>
+                            </div>
+                          </div>
     </form>
 
     )

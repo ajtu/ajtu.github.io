@@ -1,5 +1,5 @@
 nav.navbar, .navbar-default {
-  background-color: #2892D7 !important;
+  background-color: white !important;
 }
 
 .navbar-default {
@@ -9,19 +9,19 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #2892D7;
 }
 
 .navbar-default .navbar-brand {
-  color: white;
+  color: #2892D7;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: white;
+  border-color: #2892D7;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #2892D7;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -34,10 +34,22 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: white;
+  color: black;
   background-color: transparent;
 }
 
 .navbar-default .menu-item > li > a {
      color: white;
    }
+
+   .navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: white !important;
+    color:#2892D7;
+  }
+
+
+.nav-logo {
+  float: left !important;
+  margin-top: -32px !important;
+  margin-left:-15px !important;
+}

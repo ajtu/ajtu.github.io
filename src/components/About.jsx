@@ -6,30 +6,28 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/girl-butterfly.jpeg" className="header-image" />
+        <Image src="assets/girl-butterfly.jpg" className="header-image" />
         <Grid>
           <Col xs={12} sm={8} smOffset={2}>
           <h3>Why Swim?</h3>
 
           <p>There are many reasons to swim.</p>
           <p>Swimming provides good cardiovascular training and physical exercise without being tough on your joints.</p>
-          <p>Water therapy and swimming provide your body with natural buoyancy, so you can swim and exercise longer without strenuous effort or joint pain. It's a great low-impact sport that can keep you healthy.</p>
+          <p>It's a great low-impact sport that keeps you healthy. The water provides your body, natural buoyancy, so you can swim and exercise longer without strenuous effort or joint pain.</p>
           <p>Swimming provides supplemental development for a child's mental and physical developmental state. By understanding how and why their bodies move in a structured, engaged, learning environment, many students tend to excel even outside of swim class.</p>
           <p>Swimming is a life-long journey.</p>
-          <p>After learning to swim enough, a student can make bigger decisions, like joining a swim team, water polo team, getting a lifeguard certification, or maybe you just wanted to get comfortable enough to swim on vacation!</p>
+          <p>After learning to swim, a student can make bigger decisions, like joining a swim team, water polo team, getting a lifeguard certification, or maybe just enough to comfortably swim on vacation!</p>
 
           <h3>Who We Are</h3>
           <p>The founders of Open Swim have worked in both the public and private sectors of swimming in New York City for over 10 years.</p>
           <p>From a massive, strict class structure of 25 students : 1 instructor, to personalized fun group lessons with less than 5 students, the founders have achieved significant rates of progression in every single one of their students.</p>
-          <p>Our instructors are each  dedicated to helping our students achieve their goals as swimmers. </p>
+          <p>Our instructors are dedicated to helping our students achieve their goals as swimmers. </p>
           <p>With constant engagement and corrective queues, our students progress with speed and ease.</p>
                       <h3>Our Philosophy</h3>
                       <p>We believe that everyone should swim.</p>
                       <p>There's no question about it.</p>
                       <p>Our lessons focus on defined building blocks. The main ones are comfort, technique, strength, and endurance. Our goals are clear for both the instructor and student.</p>
-                      <p>Simply put, we felt like naming students sea animals and having obscure class names didn't help anyone.</p>
                       <p>By getting confusing jargon out of the way and making clear goals, we can focus on what really matters; <b>progression.</b></p>
-                      <p>Once a student learns all four strokes, they are periodically assessed and documented twice a semester.</p>
                       <p>We keep our students engaged the entire lesson. Lessons are always intense and challenging, and we always the bring out the absolute best in our students.</p>
 
 
@@ -44,6 +42,11 @@ export default class About extends Component {
 
           </Col>
         </Grid>
+
+        <br/>
+        <br/>
+        <Image src="assets/kid4.jpg" className="header-image" />
+
       </div>
     )
   }

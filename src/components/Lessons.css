@@ -9,6 +9,7 @@
   margin: 0 1em 1em 0;
 }
 
+
 .textAlignment{
 
 text-align: center;
@@ -16,6 +17,17 @@ text-align: center;
 
 .ownPoolDiv{
   text-align: center;
+}
+h4{
+  text-align: center;
+}
+
+
+.addressSide{
+  position:relative;
+  width:50%;
+  text-align: left;
+  top:50px;
 }
 
 

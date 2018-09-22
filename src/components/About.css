@@ -17,3 +17,10 @@ h3{
 .paragraph-align{
   text-align: left;
 }
+
+
+.bottom-image {
+  width: 80%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
