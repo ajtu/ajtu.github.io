@@ -24,9 +24,9 @@ componentDidMount(){
 
 
 
-        <h2 className="text-center">Find the class for you </h2><br/>
 
         <Row className="show-grid text-center">
+        
           <Col xs={12} sm={4} className="person-wrapper">
 
           <Link to="/baby-lessons">
